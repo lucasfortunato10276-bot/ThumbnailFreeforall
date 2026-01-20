@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>YouTube Thumbnail Downloader | Free Tool</title>
+
+  <meta name="description" content="Download YouTube video thumbnails in HD quality. Paste the video link and save the thumbnail instantly.">
+  <meta name="robots" content="index, follow">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <main class="container">
+
+    <h1>Get YouTube Video Thumbnail</h1>
+
+    <p class="subtitle">
+      Paste a YouTube video link below to instantly get and download the thumbnail.
+    </p>
+
+    <p class="example">
+      Example:<br>
+      https://www.youtube.com/watch?v=erLK59H86ww
+    </p>
+
+    <p class="info">
+      Your image will open in a new tab. To save it, tap and hold the image and select
+      <strong>"Download image"</strong>.
+    </p>
+
+    <input
+      type="text"
+      id="youtubeLink"
+      placeholder="Paste YouTube video URL here"
+    >
+
+    <div class="buttons">
+      <button id="btnBuscar">Find thumbnail</button>
+      <button id="btnDownload" disabled>Download</button>
+    </div>
+
+    <img id="thumb" alt="YouTube thumbnail">
+
+    <p id="erro" class="error"></p>
+
+  </main>
+
+  <footer>
+    © 2026 YouTube Thumbnail Downloader
+  </footer>
+
+</body>
+</html>

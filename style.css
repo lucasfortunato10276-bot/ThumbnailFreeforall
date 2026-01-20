@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #cfe9ff, #eaf6ff);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 500px;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+.subtitle {
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+.example {
+  font-size: 0.9rem;
+  color: #333;
+  margin-bottom: 15px;
+  word-break: break-all;
+}
+
+.info {
+  font-size: 0.85rem;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+button {
+  flex: 1;
+  padding: 12px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 25px;
+  background-color: #2ecc71;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+#thumb {
+  width: 100%;
+  max-width: 100%;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.error {
+  margin-top: 15px;
+  color: red;
+  font-size: 0.9rem;
+}
+
+footer {
+  margin-top: auto;
+  padding: 15px;
+  font-size: 0.8rem;
+  color: #333;
+}
+
+/* 💻 Desktop */
+@media (min-width: 768px) {
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  .container {
+    max-width: 600px;
+  }
+
+  button {
+    font-size: 1.1rem;
+  }
+}
